@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<script type='text/javascript'>
+	document.oncontextmenu = function(){return false}
+</script>
+
+
+
+
+
+
+
+
+
+<!-- Start of Async Callbell Code -->
+<script>
+  window.callbellSettings = {
+    token: "UjmjAkBB2zY3BRiefYjWkc9H"
+  };
+
+
+
+
+
+
+</script>
+
+
+
+<head>
+</head>
+<body>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Roboto Condensed:wght@400;700&display=swap');
+
+
+
+.box {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(1, minmax(100px, 1fr));
+}
+
+
+.box {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;    
+  }
+
+.box a:hover {
+    transition: transform .3s;
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);  
+    transform: scale(1.2);
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  height: 10 px;
+  width: 3050px;
+display: grid;
+  grid-gap: 20px;
+  background-image: black;
+  box-shadow: rgba(0, 0, 0, 0.69) 0px 26px 30px -10px, rgba(0, 0, 0, 0.73) 0px 16px 10px -10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: ;
+  cursor: pointer;
+  transition: all 950ms cCubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+.title {
+  height: 70px;
+  width: auto;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+		html, body
+		{
+			padding: 0px;
+			margin: 0px;
+			background-color: black;
+			font-family:'Roboto Condensed'; 
+			overflow-x: hidden;
+		}
+
+		.logo
+		{
+			height: 50px;/*
+			padding-left: 10px;
+			padding-top: 10px;*/
+			opacity: 90%;
+			vertical-align: middle;
+
+		}
+
+		#lupa
+		{
+			text-align: right;
+			position: absolute;
+			right: 30px;
+		}
+
+		a
+		{
+			text-decoration: none;
+		}
+
+		.logo:hover
+		{
+			opacity: 100%;
+		}
+
+		header
+		{
+			z-index: 3;
+			width: 100%;
+			height: 50px;
+			background-color: black;
+			margin: 0px;
+			padding: 10px;
+			position: fixed;
+		}
+
+		header ol
+		{
+			padding: 0px;
+			margin: 0px;
+			display: inline;
+
+		}
+
+		/* TEXTO HEADER*/
+		header ol li
+		{
+			display: inline;
+			padding-left: 10px;
+			font-family: 'Roboto Condensed;
+			font-weight: bold;
+			color: white;
+			font-size: 17px;
+		}
+
+		header ol li:hover
+		{
+			color: red;
+		}
+
+
+		.moviestile
+		{
+			padding-left: 1px;
+			padding-right: 1px;
+		}
+
+
+		.swiper-container .swiper-wrapper .swiper-slide .sinopsis
+		{
+			position: absolute;
+			color: white;
+			z-index: 2;
+			font-size: 27px;
+			font-family: 'Roboto Condensed';
+			text-align: justify;
+			top: 220px;
+			margin-right: 500px;
+			padding-left: 50px;
+		}
+
+		.tituloseccion
+		{
+			font-weight: bold;
+			padding-left: 1px;
+		}
+
+		img
+		{
+			height: 250px;
+			margin-left: 10px;
+
+		}
+
+		.news
+		{
+			padding-top: 70px;
+		}
+
+
+
+
+		.bgcolor
+		{
+			opacity: .3;
+			height: 656px;
+			width: 100%;
+			position: absolute;
+			background-color: black;
+		}
+
+		.movies
+		{
+			overflow-x: scroll;
+			overflow-y: hidden;
+			white-space: nowrap;
+		}
+
+		.series
+		{
+			overflow-x: scroll;
+			overflow-y: hidden;
+			white-space: nowrap;
+		}
+
+		.infantiles
+		{
+			overflow-x: scroll;
+			overflow-y: hidden;
+			white-space: nowrap;
+		}
+
+
+		h1
+		{
+			color: white;
+		}
+
+		h2
+		{
+			font-family: 'Roboto Condensed';
+			font-weight: bold;
+			color: white;
+			font-size: 17px;
+		}
+
+		
+		}
+
+		.snimages
+		{
+
+			display: block;
+			height: 10px;
+		}
+
+
+		.swiper-container {
+		      width: 100%;
+		      height: 50%;
+
+		    }
+
+		.swiper-container img{
+		  margin-left: 0px;
+		  width: 100%;
+		  height: 100%;
+		  padding-left: 0px;
+		  object-fit: fill;
+
+		}
+
+		.swiper-slide {
+		  text-align: center;
+		  font-size: 18px;
+		  background: #fff;
+
+		  /* Center slide text vertically */
+		  display: -webkit-box;
+		  display: -ms-flexbox;
+		  display: -webkit-flex;
+		  display: flex;
+		  -webkit-box-pack: center;
+		  -ms-flex-pack: center;
+		  -webkit-justify-content: center;
+		  justify-content: center;
+		  -webkit-box-align: center;
+		  -ms-flex-align: center;
+		  -webkit-align-items: center;
+		  align-items: center;
+		}
+
+		/* Extra small devices (phones, 600px and down) */
+		@media only screen and (max-width: 600px)
+		{
+			body
+			{
+				background-color: black;
+				color: white;
+				height: 100%;
+			}
+
+			h1
+			{
+				color: white;
+			}
+			header
+			{
+				overflow-x: scroll;
+				overflow-y: hidden;
+				white-space: nowrap;
+			}
+			#lupa
+			{
+				text-align: right;
+				position: relative;
+				margin-left: 40px;
+			}
+
+			.swiper-container .swiper-wrapper .swiper-slide .sinopsis
+			{
+				margin-right: 0px;
+				position: absolute;
+				color: white;
+				z-index: 2;
+				font-size: 17px;
+				font-family: 'Roboto Condensed';
+				text-align: justify;
+				top: 250px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+
+			.swiper-container {
+		      width: 100%;
+		      height: 500px;
+
+		    }
+
+		    .swiper-container img{
+			  margin-left: 0px;
+			  width: 100%;
+			  height: 100%;
+			  padding-left: 0px;
+			  object-fit: cover;
+
+			}
+			
+			.nuevas img
+			{
+				margin-left: 0px;
+				width: 100%;
+				height: 500px;
+				padding-left: 0px;
+				object-fit: cover;
+			}
+
+
+			.bgcolor
+			{
+				opacity: .4;
+				height: 500px;
+				width: 100%;
+				position: absolute;
+				background-color: black;
+			}
+
+			.series img
+			{
+				border-radius: 15%;
+		  		object-fit: cover;
+			}
+
+			.movies img
+			{
+				border-radius: 10%;
+		  		object-fit: cover;
+			}
+
+			.infantiles img
+			{
+				border-radius: 10%;
+		  		object-fit: cover;
+			}
+
+			img
+			{
+				height: 150px;
+				margin-left: 10px;
+			}
+		}
+
+		/*iPhone 6*/
+		@media screen and (device-aspect-ratio: 375/667) {
+			body
+			{
+				background-color: black;
+			}
+
+			.swiper-container .swiper-wrapper .swiper-slide .sinopsis
+			{
+				margin-right: 0px;
+				position: absolute;
+				color: white;
+				z-index: 2;
+				font-size: 20px;
+				font-family: 'Roboto Condensed';
+				text-align: justify;
+				top: 250px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+
+			.swiper-container {
+		      width: 100%;
+		      height: 600px;
+
+		    }
+
+		    .swiper-container img{
+			  margin-left: 0px;
+			  width: 100%;
+			  height: 100%;
+			  padding-left: 0px;
+			  object-fit: cover;
+
+			}
+			
+			.nuevas img
+			{
+				margin-left: 0px;
+				width: 100%;
+				height: 500px;
+				padding-left: 0px;
+				object-fit: cover;
+			}
+
+
+			.bgcolor
+			{
+				opacity: .4;
+				height: 600px;
+				width: 100%;
+				position: absolute;
+				background-color: black;
+			}
+		}
+
+
+
+
+
+
+
+		/*landscape*/
+		@media only screen 
+		  and (min-device-width: 375px) 
+		  and (max-device-width: 367px) 
+		  and (-webkit-min-device-pixel-ratio: 2)
+		  and (orientation: landscape) { 
+		  	body
+		  	{
+		  		background-color: black;
+		  	}
+		  	h1
+		  	{
+		  		color: white;
+		  	}
+
+		  	
+
+			.swiper-container .swiper-wrapper .swiper-slide .sinopsis
+			{
+				position: absolute;
+				color: white;
+				z-index: 2;
+				font-size: 17px;
+				font-family: 'Roboto Condensed';
+				text-align: justify;
+				top: 80px;
+				margin-right: 350px;
+				padding-left: 30px;
+			}
+
+			.bgcolor
+			{
+				opacity: .3;
+				height: 300px;
+				width: 100%;
+				position: absolute;
+				background-color: black;
+			}
+
+			.series img
+			{
+				border-radius: 5%;
+		  		object-fit: cover;
+			}
+
+			.movies img
+			{
+				border-radius: 5%;
+		  		object-fit: cover;
+			}
+
+			.infantiles img
+			{
+				border-radius: 5%;
+		  		object-fit: cover;
+			}
+
+			img
+			{
+				height: 150px;
+				margin-left: 10px;
+			}
+		}
+
+		/* Landscape iPhone 8+*/
+		@media only screen 
+		  and (min-device-width: 414px) 
+		  and (max-device-width: 736px) 
+		  and (-webkit-min-device-pixel-ratio: 3)
+		  and (orientation: landscape) { 
+
+		  	body
+		  	{
+		  		background-color: black;
+		  	}
+		  	h1
+		  	{
+		  		color: white;
+		  	}
+
+			.swiper-container .swiper-wrapper .swiper-slide .sinopsis
+			{
+				position: absolute;
+				color: white;
+				z-index: 2;
+				font-size: 17px;
+				font-family: 'Roboto Condensed';
+				text-align: justify;
+				top: 100px;
+				margin-right: 350px;
+				padding-left: 10px;
+			}
+
+			.bgcolor
+			{
+				opacity: .3;
+				height: 340px;
+				width: 100%;
+				position: absolute;
+				background-color: black;
+			}
+
+			.series img
+			{
+				border-radius: 5%;
+		  		object-fit: cover;
+			}
+
+			.movies img
+			{
+				border-radius: 5%;
+		  		object-fit: cover;
+			}
+
+			.infantiles img
+			{
+				border-radius: 5%;
+		  		object-fit: cover;
+			}
+
+			img
+			{
+				height: 150px;
+				margin-left: 10px;
+			}
+		}
+
+
+		@media only screen 
+		    and (device-width : 375px) 
+		    and (device-height : 667px) 
+		    and (-webkit-device-pixel-ratio : 2)
+		    and (orientation : landscape){
+		    	body
+		    	{
+		    		background-color: black;
+		    	}
+
+		    	.news .swiper-container .swiper-wrapper .swiper-slide .sinopsis
+				{
+					position: absolute;
+					color: white;
+					z-index: 2;
+					font-size: 20px;
+					font-family: 'Roboto Condensed';
+					text-align: justify;
+					top: 30px;
+					margin-right: 150px;
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+
+				.swiper-container {
+			      width: 100%;
+			      height: 300px;
+
+			    }
+
+			    .swiper-container img{
+				  margin-left: 0px;
+				  width: 100%;
+				  height: 100%;
+				  padding-left: 0px;
+				  object-fit: cover;
+
+				}
+
+				.bgcolor
+				{
+					opacity: .3;
+					height: 100%;
+					width: 100%;
+					position: absolute;
+					background-color: black;
+				}
+		    }
+
+
+
+		/* iPhoneX */
+		@media only screen 
+		  and (min-device-width: 375px) 
+		  and (max-device-width: 812px) 
+		  and (-webkit-min-device-pixel-ratio: 3) { 
+
+		  	body
+		  	{
+		  		background-color: black;
+		  	}
+		  	h1
+		  	{
+		  		color: white;
+		  	}
+
+			.swiper-container .swiper-wrapper .swiper-slide .sinopsis
+			{
+				position: absolute;
+				color: white;
+				z-index: 2;
+				font-size: 30px;
+				font-family: 'Roboto Condensed';
+				text-align: justify;
+				top: 180px;
+				margin-right: 0px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+
+			.swiper-container {
+		      width: 100%;
+		      height: 740px;
+
+		    }
+
+		    .swiper-container img{
+			  margin-left: 0px;
+			  width: 100%;
+			  height: 100%;
+			  padding-left: 0px;
+			  object-fit: cover;
+
+			}
+
+			.bgcolor
+			{
+				opacity: .3;
+				height: 740px;
+				width: 100%;
+				position: absolute;
+				background-color: black;
+			}
+
+			.series img
+			{
+				border-radius: 5%;
+		  		object-fit: cover;
+			}
+
+			.movies img
+			{
+				border-radius: 5%;
+		  		object-fit: cover;
+			}
+
+			.infantiles img
+			{
+				border-radius: 5%;
+		  		object-fit: cover;
+			}
+
+			img
+			{
+				height: 150px;
+				margin-left: 10px;
+			}
+		}
+
+		/*iPhone X landscape*/
+		@media only screen 
+		  and (min-device-width: 375px) 
+		  and (max-device-width: 812px) 
+		  and (-webkit-min-device-pixel-ratio: 3)
+		  and (orientation: landscape) {
+		  	.news .swiper-container .swiper-wrapper .swiper-slide .sinopsis
+			{
+				position: absolute;
+				color: white;
+				z-index: 2;
+				font-size: 20px;
+				font-family: 'Roboto Condensed';
+				text-align: justify;
+				top: 30px;
+				margin-right: 400px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+
+			.swiper-container {
+		      width: 100%;
+		      height: 305px;
+
+		    }
+
+		    .swiper-container img{
+			  margin-left: 0px;
+			  width: 100%;
+			  height: 100%;
+			  padding-left: 0px;
+			  object-fit: cover;
+
+			}
+
+			.bgcolor
+			{
+				opacity: .3;
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				background-color: black;
+			}
+		  }
+		/* Small devices (portrait tablets and large phones, 600px and up) */
+		@media only screen and (min-width: 300px) {...}
+
+		/* Medium devices (landscape tablets, 768px and up) */
+		@media only screen and (min-width: 768px) {
+			body
+			{
+				background-color: black;
+				color: white;
+			}
+
+			h1
+			{
+				color: white;
+			}
+			header
+			{
+				overflow-x: scroll;
+				overflow-y: hidden;
+				white-space: nowrap;
+			}
+			#lupa
+			{
+				text-align: right;
+				position: relative;
+				margin-left: 40px;
+			}
+
+			.swiper-container .swiper-wrapper .swiper-slide .sinopsis
+			{
+				margin-right: 0px;
+				position: absolute;
+				color: white;
+				z-index: 2;
+				font-size: 23px;
+				font-family: 'Roboto Condensed';
+				text-align: justify;
+				top: 200px;
+				padding-left: 10px;
+				padding-right: 350px;
+			}
+			
+			.nuevas img
+			{
+				margin-left: 0px;
+				width: 100%;
+				height: 500px;
+				padding-left: 0px;
+				object-fit: cover;
+			}
+
+			.bgcolor
+			{
+				opacity: .3;
+				height: 500px;
+				width: 100%;
+				position: absolute;
+				background-color: black;
+			}
+
+			.series img
+			{
+				border-radius: 15%;
+		  		object-fit: cover;
+			}
+
+			.movies img
+			{
+				border-radius: 10%;
+		  		object-fit: cover;
+			}
+
+			.infantiles img
+			{
+				border-radius: 10%;
+		  		object-fit: cover;
+			}
+
+			img
+			{
+				height: 110px;
+				margin-left: 10px;
+			}
+		}
+
+		/* Large devices (laptops/desktops, 992px and up) */
+		@media only screen and (min-width: 992px) {...}
+
+		/* Extra large devices (large laptops and desktops, 1200px and up) */
+		@media only screen and (min-width: 1200px) {
+			html, body
+			{
+				padding: 0px;
+				margin: 0px;
+				background-color: black;
+				font-family:'Roboto Condensed'; 
+				overflow-x: hidden;
+			}
+
+			.logo
+			{
+				height: 50px;/*
+				padding-left: 10px;
+				padding-top: 10px;*/
+				opacity: 90%;
+				vertical-align: middle;
+
+			}
+
+			#lupa
+			{
+				text-align: right;
+				position: absolute;
+				right: 30px;
+			}
+
+			a
+			{
+				text-decoration: none;
+			}
+
+			.logo:hover
+			{
+				opacity: 100%;
+			}
+
+			header
+			{
+				z-index: 3;
+				width: 100%;
+				height: 50px;
+				background-color: black;
+				margin: 0px;
+				padding: 10px;
+				position: fixed;
+				overflow-x: hidden;
+			}
+
+			header ol
+			{
+				padding: 0px;
+				margin: 0px;
+				display: inline;
+
+			}
+
+			/* TEXTO HEADER*/
+			header ol li
+			{
+				display: inline;
+				padding-left: 30px;
+				font-family: 'Roboto Condensed';
+				font-weight: bold;
+				color: white;
+				font-size: 17px;
+			}
+
+			header ol li:hover
+			{
+				color: red;
+			}
+
+
+			.moviestile
+			{
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+
+
+			.swiper-container .swiper-wrapper .swiper-slide .sinopsis
+			{
+				position: absolute;
+				color: white;
+				z-index: 2;
+				font-size: 27px;
+				font-family: 'Roboto Condensed';
+				text-align: justify;
+				top: 300px;
+				margin-right: 500px;
+				padding-left: 10px;
+			}
+
+			h1
+			{
+				color: white;
+			}
+
+			.tituloseccion
+			{
+				font-weight: bold;
+				padding-left: 10px;
+			}
+
+			img
+			{
+				height: 250px;
+				margin-left: 10px;
+
+			}
+
+			.nuevas
+			{
+				z-index: 1;
+				padding-top: 70px;
+			}
+
+			.nuevas img
+			{
+				margin-left: 0px;
+				width: 100%;
+				height: 100%;
+				padding-left: 0px;
+				object-fit: fill;
+			}
+
+
+
+			.bgcolor
+			{
+				opacity: .3;
+				height: 656px;
+				width: 100%;
+				position: absolute;
+				background-color: black;
+			}
+
+
+
+			.movies
+			{
+				overflow-x: scroll;
+				overflow-y: hidden;
+				white-space: nowrap;
+			}
+
+			.series
+			{
+				overflow-x: scroll;
+				overflow-y: hidden;
+				white-space: nowrap;
+			}
+
+			.infantiles
+			{
+				overflow-x: scroll;
+				overflow-y: hidden;
+				white-space: nowrap;
+			}
+
+
+			h2
+			{
+				font-family: 'Roboto Condensed';
+				font-weight: bold;
+				color: white;
+				font-size: 17px;
+			}
+
+			
+
+			.snimages
+			{
+
+				display: block;
+				height: 20px;
+			}
+
+			.series img
+			{
+				border-radius: 10%;
+		  		object-fit: cover;
+			}
+
+			.movies img
+			{
+				border-radius: 10%;
+		  		object-fit: cover;
+			}
+
+			.infantiles img
+			{
+				border-radius: 10%;
+		  		object-fit: cover;
+			}
+		}
+		}
+
+
+
+
+
+
+@media(max-width: 560px) {
+
+
+
+  .box {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+  }
+
+}
+
+@media(max-width: 700px) {
+
+ 
+
+  .box {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+  }
+
+  .sub-links ul {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+   
+}
+
+@media(max-width: 400px) {
+.wrapper {
+    font-size: 15px;
+  }
+
+
+
+	</style>
+
+<div>
+
+<body>
+
+<main>	
+
+<center>		
+<h1 class="tituloseccion"><p style="color:black";>d</h1></p></a>
+			
+
+<div class="container">
+   
+</center>
+ 
+    
+    <!-- MAIN CONTAINER -->
+    <section class="main-container" >
+      <div class="location" id="home">
+
+
+          <h1 id="home">Pelis Recientes en Cineadictos</h1>
+          <div class="box">
+
+
+<a target="_parent" href="https://www.cineadictos.xyz/todas/i/71375729/the-whale"><img src="https://pics.filmaffinity.com/the_whale-293958603-large.jpg"></a>  
+
+
+<a target="_parent" href="https://www.cineadictos.xyz/todas/c/0/i/70490300/tar"><img src="https://pics.filmaffinity.com/tar-530526120-large.jpg"></a> 
+
+<a target="_parent" href="https://www.cineadictos.xyz/todas/c/0/i/70490376/pantera-negra-wakanda-por-siempre"><img src="https://pics.filmaffinity.com/black_panther_wakanda_forever-869269163-large.jpg">
+</a> 
+
+
+          </div>
+      </div>
+      
+
+          </div>
+      </div>
+    
+</body>
+</html>
